@@ -1,0 +1,108 @@
+.showcase {
+    min-height: 200px;
+    background-image: url(../images/king_a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+    min-height: 200px;
+    background: rgba(40, 0, 130, 0.7);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    position: relative;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+/* Increase specificity to override Bootstrap styles */
+.navbar.navbar {
+    background-color: rgba(
+        50,
+        0,
+        130,
+        0.6
+    ); /* Adjust the alpha value (0.7) as needed */
+}
+.navbar-brand {
+  margin-left: 10%;
+  @media (max-width: 991px) {
+    margin-left: 1%; /* Set margin-left to 1rem on small screens */
+  }
+}
+
+/* about section */
+.imgdiv {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 50% 3% 50% 50%;
+}
+
+.imgdiv img {
+    max-height: 400px; /* Set a maximum height for the image */
+    object-fit: cover; /* Fill the available space while maintaining aspect ratio */
+    border-radius: 50% 3% 50% 50%;
+}
+h2.display-4.font-weight-bold {
+    color: purple; /* Change heading color to blue */
+}
+
+a.abt-ktalq {
+    color: #fff; /* Change button text color to white */
+    background-color: purple; /* Change button background color to blue */
+}
+a.abt-ktalq:hover {
+    background-color: #ba55d3; /* Change button background color to blue on hover */
+}
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+/* footer */
+footer {
+    background-image: url(../images/king_a.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: purple;
+    border: 1px solid #fff;
+}
+
+.btn-purple:hover {
+    border: 1px solid white;
+    color: #fff;
+    background-color: #ba55d3; /* Lighter purple on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box-shadow on hover */
+}
+
+.foot-overlay {
+    background: rgba(40, 0, 130, 0.8); /* Increased opacity */
+}
+.list-inline-item a {
+    transition: color 0.3s ease;
+}
+.list-inline-item :hover {
+    color: #ba55d3; /* Change to your preferred hover color */
+}
+.ftlnk {
+    transition: color 0.3s ease;
+}
+.ftlnk:hover {
+    color: #ba55d3; /* Change to your preferred hover color */
+}
